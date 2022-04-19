@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" media='screen and (max-width: 375px)' href="css/style_mobile.css"> -->
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <!-- <link rel="stylesheet" href="css/style_mobile.css"> -->
+
+    <link rel="stylesheet" media="screen and (min-width: 376px)" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 376px)" href="css/style_mobile.css">
+
+    <!--The code snippet to guide me to the different break-points-->
+    <!-- <link rel="stylesheet" media='screen and (min-width: 140px) and (max-width: 380px)' href="phone.css"/>
+    <link rel="stylesheet" media='screen and (min-width: 381px) and (max-width: 700px)' href="tablet.css"/> -->
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class = "active">Home</a>
+            <a href="work.html">Work</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a> 
+        </nav>
+        <!--mobile-->
+        <div class="mobile_header">
+            <img src="images/mobile_icon_menu.svg" alt="icon menu" class="icon_menu">
+        </div>
+        <!--end mobile-->
+    </header>
+    <div id="bl_in_container">
+        <div id="block_one">
+            <div id="cont_left">
+                <h1 class="mob_h">Hi, I am John,<br> Creative Technologist</h1>
+                <p id="inform">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <button type="button">Download Resume</button>
+            </div>
+            <div id="cont_right">
+                <img src="images/avatar.png" alt="Avatar" class="avatar mob_avatar">
+            </div>
+        </div>
+    </div>
+    <!-- Block2 "Recent Posts", where we have blue background with two small cards -->
+    <div id="bl_container">
+        <div id="block_two">
+            <div class="shapka_small">
+                <p class="twenty-two">Resent posts</p>
+                <a id="link_view" href="view_all.html">View all</a>
+            </div>
+            <div id="two_cards">
+                <div class="card_bare">
+                    <h3>Making a design system from scratch</h3>
+                    <div class="date_subj">
+                        <p class="slightly_bigger">12 Feb 2020</p>
+                        <div class="separator"></div>
+                        <p class="slightly_bigger">Design, Pattern</p>
+                    </div>
+                    <p class="text_card">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+                <div class="card_bare last">
+                    <h3>Creating pixel perfect icons in Figma</h3>
+                    <div class="date_subj">
+                        <p class="slightly_bigger">12 Feb 2020</p>
+                        <div class="separator"></div>
+                        <p class="slightly_bigger">Figma, Icon Design</p>
+                    </div>
+                    <p class="text_card">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!--Block3 "Featured Works" -->
+    <div id="block_three">
+        <div class="shapka_small" id="seco">
+            <p class="twenty-two_dop">Featured works</p>
+        </div>
+        <div id="card_container">
+            <div class="card_featured_work">
+                <img src="images/featured1.png" alt="featured work one" class="featured">
+                <div class="card_right">
+                    <h2 class="h_two_mobile">Designing Dashboards</h2>
+                    <p class="round_date">2020</p>
+                    <p class="twenty_grey">Dashboard</p>
+                    <p class="sm_text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </div>
+            <div class="card_featured_work two">
+                <img src="images/featured2.png" alt="featured work two" class="featured">  
+                <div class="card_right">
+                    <h2>Vibrant Portraits of 2020</h2>
+                    <p class="round_date">2018</p>
+                    <p class="twenty_grey">Illustration</p>
+                    <p class="sm_text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </div>
+            <div class="card_featured_work three">
+                <img src="images/featured3.png" alt="featured work three" class="featured">  
+                <div class="card_right">
+                    <h2>36 Days of Malayalam type</h2>
+                    <p class="round_date">2018</p>
+                    <p class="twenty_grey">Typography</p>
+                    <p class="sm_text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <footer>
+        <div class="socials">
+            <img src="images/i1_fb.svg" alt="facebook icon" class="social_media">
+            <img src="images/i2_insta.svg" alt="instagram icon" class="social_media">
+            <img src="images/i3_twitter.svg" alt="twitter icon" class="social_media">
+            <img src="images/i4_linkedin.svg" alt="linkedin icon" class="social_media" id="last">
+        </div>
+        <p class="copyr">Copyright ©2020 All rights reserved </p>
+    </footer>
+</body>
+</html>
